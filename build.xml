@@ -112,7 +112,7 @@
 	</target>
 	
 	<target name="execute.client" depends="compile">
-			<java classname="introsde.rest.assignment.client.Client" classpath="${build.dir}">
+			<java classname="introsde.rest.client.Client" classpath="${build.dir}">
 				<classpath>
 					<fileset dir="${lib.dir}">
 						<include name="**/*.jar" />
